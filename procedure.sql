@@ -53,4 +53,6 @@ DELIMITER ;
  CALL fact(6);
  CALL summ(6,7);
  CALL avgg(10)
+ 
  CALL avg_from_query(@S);
+ SELECT @S;
